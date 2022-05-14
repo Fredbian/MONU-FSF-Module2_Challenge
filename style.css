@@ -58,7 +58,7 @@ a:hover {
 /* Set style for subtitle */
 .subtitle {
     height: 300px;
-    background-image: url(/images/subtitle_background.jpg);
+    background-image: url(./images/subtitle_background.jpg);
     background-size: cover;
     color: rgb(212, 199, 174);
     position: relative;
@@ -126,19 +126,19 @@ height: 160px;
 
 
 .item1 {
-    background-image: url(/images/project1.jpg);
+    background-image: url(./images/project1.jpg);
     background-size: cover;
     position: relative;
 }
 
 .item2 {
-    background-image: url(/images/project2.jpg);
+    background-image: url(./images/project2.jpg);
     background-size: cover;
     position: relative;
 }
 
 .item3 {
-    background-image: url(/images/project3.jpg);
+    background-image: url(./images/project3.jpg);
     background-size: cover;
     position: relative;
 }
