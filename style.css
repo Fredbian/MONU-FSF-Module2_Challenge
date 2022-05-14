@@ -38,7 +38,6 @@ h1 {
 
 /* Set style for navbar */
 .navbar {   
-    display: inline-block;
     float: right;
     border-bottom: 3px solid rgb(212, 199, 174);
     color: rgb(212, 199, 174);
@@ -85,7 +84,7 @@ h2 {
     display: flex;
     float: left;   
     flex-direction: column;
-    width: 15%;
+    width: 20%;
     height: 900px;
 }
 
