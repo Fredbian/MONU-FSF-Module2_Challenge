@@ -13,10 +13,17 @@ body {
 /* This is the header and the navigation of the page */
 /* Style background-color, padding and height for header and clear float */
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: rgba(23, 50, 66, 0.911);
     padding: 10px;
     height: 60px;
     clear: both;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Clear list style for ul */
@@ -42,7 +49,7 @@ h1 {
     border-bottom: 3px solid rgb(212, 199, 174);
     color: rgb(212, 199, 174);
     text-decoration: none;
-    padding: 10px 10px;
+    padding: 10px 5px;
     margin: 3px;
     height: 35px;
     text-align: center;   
