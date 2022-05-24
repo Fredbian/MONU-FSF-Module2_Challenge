@@ -24,10 +24,10 @@ header {
 }
 
 .nav {
-    width: 350px;
+    width: 400px;
 }
 
-header .nav ul {
+header .nav>ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -48,13 +48,50 @@ h1 {
 .navbar {
     display: inline-block;  
     border-bottom: 3px solid rgb(212, 199, 174);
+    width: 100px;
     height: 35px;
     line-height: 40px;
     color: rgb(212, 199, 174);
     text-decoration: none;
+    font-size: 20px;
     margin: 3px;
     text-align: center;   
 }
+
+/* Set style for dropdown list */
+ul li {
+    float: left;
+}
+
+li ul li {
+    float: none;
+}
+
+li:hover ul{
+    display:block;
+}
+
+.dropdown-nav {
+    display: none;
+    list-style: none;
+    padding: 10px 23px;
+    border-radius: 8px;
+    background-color: rgb(212, 199, 174);
+    box-shadow: 4px 4px 15px rgba(134, 225, 231, 0.986)
+}
+
+.dropdown-nav li a {
+    text-decoration: none;
+    color: rgba(23, 50, 66, 0.911);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.dropdown-nav li {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
 
 /* Set style when mouse move on a link */
 a:hover {
