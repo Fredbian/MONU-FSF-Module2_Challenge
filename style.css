@@ -160,15 +160,20 @@ h2 {
 
 /* Set style for item */ 
 .item {
-
     height: 100px;
     color: rgba(23, 50, 66, 0.911);
     margin: 10px;
     padding: 5px;
 }
 
-.item1,.item2,.item3 {
-height: 160px;
+.item1,.item2,.item3 {    
+    height: 160px;
+    transform: scale(1);
+    transition: transform 1s ease 0s;
+}
+
+.item1:hover,.item2:hover,.item3:hover {
+    transform: scale(1.1);
 }
 
 
@@ -226,4 +231,11 @@ h4 {
     .content {
         font-size: 16px;
     }
+}
+
+@media screen and (max-width: 540px) {
+    h1 {
+        font-size: 16px;
+    }
+    
 }
