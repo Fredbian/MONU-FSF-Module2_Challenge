@@ -198,6 +198,11 @@ h2 {
     background-size: cover;
 }
 
+.item5 a {
+    color: rgba(23, 50, 66, 0.911);
+    font-size: 25px;
+}
+
 /* Set style for h4 */
 h4 {
     width: 100px;
